@@ -6,5 +6,5 @@ var playlist = new Object({ Beatles: "Let it be" });
 }
   function removeFromPlaylist(playlist, artist) {
   delete playlist.artist;
-  return playlist
+  return playlist;
 }
